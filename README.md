@@ -7,3 +7,4 @@
 - [2839](https://github.com/yudavid0611/algorithm/blob/master/BOJ/2839.py)
 - [2869](https://github.com/yudavid0611/algorithm/blob/master/BOJ/2869.py)
 - [4673](https://github.com/yudavid0611/algorithm/blob/master/BOJ/4673.py)
+- [9461](https://github.com/yudavid0611/algorithm/blob/master/BOJ/9461.py)
