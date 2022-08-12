@@ -1,4 +1,10 @@
-# algorithm
+# Algorithm
+
+## Strategy
+- [binary search](https://github.com/yudavid0611/algorithm/blob/master/strategy/binary_search.ipynb)
+- [sorting](https://github.com/yudavid0611/algorithm/blob/master/strategy/sorting.ipynb)
+
+</br>
 
 ## BOJ
 - [1110](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1110.py)
