@@ -2,6 +2,8 @@
 
 ## Strategy
 - [binary search](https://github.com/yudavid0611/algorithm/blob/master/strategy/binary_search.ipynb)
+- [sequential search](https://github.com/yudavid0611/algorithm/blob/master/strategy/sequential_search.ipynb)
+- [selection](https://github.com/yudavid0611/algorithm/blob/master/strategy/selection.ipynb)
 - [sorting](https://github.com/yudavid0611/algorithm/blob/master/strategy/sorting.ipynb)
 
 </br>
