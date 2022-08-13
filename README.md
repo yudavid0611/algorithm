@@ -21,3 +21,8 @@
 - [2908](https://github.com/yudavid0611/algorithm/blob/master/BOJ/2908.py)
 - [4673](https://github.com/yudavid0611/algorithm/blob/master/BOJ/4673.py)
 - [9461](https://github.com/yudavid0611/algorithm/blob/master/BOJ/9461.py)
+
+</br>
+
+## LeetCode
+- [32](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/32.py)
