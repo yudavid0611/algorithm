@@ -1,5 +1,5 @@
-import sys
-sys.stdin = open('BOJ/input.txt', 'r')
+# import sys
+# sys.stdin = open('BOJ/input.txt', 'r')
 
 people = int(input())
 numbers = list(map(int, input().split()))
