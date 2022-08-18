@@ -2,7 +2,7 @@
 
 ## Strategy
 - [binary search](https://github.com/yudavid0611/algorithm/blob/master/strategy/binary_search.ipynb)
-- [binary search](https://github.com/yudavid0611/algorithm/blob/master/strategy/graph_search/graph_search.ipynb)
+- [graph search](https://github.com/yudavid0611/algorithm/blob/master/strategy/graph_search/graph_search.ipynb)
 - [quick sort](https://github.com/yudavid0611/algorithm/blob/master/strategy/quick_sort.ipynb)
 - [sequential search](https://github.com/yudavid0611/algorithm/blob/master/strategy/sequential_search.ipynb)
 - [selection](https://github.com/yudavid0611/algorithm/blob/master/strategy/selection.ipynb)
