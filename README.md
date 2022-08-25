@@ -12,6 +12,7 @@
 
 ## BOJ
 - [1110](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1110.py)
+- [1181](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1181/)
 - [1546](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1546.py)
 - [2292](https://github.com/yudavid0611/algorithm/blob/master/BOJ/2292.py)
 - [2309](https://github.com/yudavid0611/algorithm/blob/master/BOJ/2309.py)
