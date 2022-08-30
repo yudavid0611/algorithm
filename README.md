@@ -7,6 +7,7 @@
 - [sequential search](https://github.com/yudavid0611/algorithm/blob/master/strategy/sequential_search.ipynb)
 - [selection](https://github.com/yudavid0611/algorithm/blob/master/strategy/selection.ipynb)
 - [sorting](https://github.com/yudavid0611/algorithm/blob/master/strategy/sorting.ipynb)
+- [subset and permutation](https://github.com/yudavid0611/algorithm/blob/master/strategy/subset_and_permutation.ipynb)
 
 </br>
 
