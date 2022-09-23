@@ -30,4 +30,9 @@
 </br>
 
 ## LeetCode
+- [17](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/17.py)
 - [32](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/32.py)
+- [39](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/39.py)
+- [77](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/77.py)
+- [78](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/78.py)
+- [200](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/200.py)
