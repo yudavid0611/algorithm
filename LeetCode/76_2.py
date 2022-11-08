@@ -1,32 +1,36 @@
 # 76. Minimum Window Substring
+# 575ms / 14.8mb
 
 
-from collections import defaultdict
 from collections import Counter
-import copy
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         if len(t) > len(s):                                         # t가 더 길면 조건을 충족할 수 없으므로 '' 반환
             return ''
 
-        t_dict = Counter(t)
-        target = copy.deepcopy(t_dict)
-        ans = ''
+        target = Counter(t)
+        target_keys = target.keys()
+        result = '0' * (len(s) + 1)
 
         left = 0
         right = 0
         while right < len(s):
+            left_flag = False
             while right < len(s):
-                if s[right] in target.keys():
-                    target[right] -= 1
-                    if list(target.values()).count(0) == len(target.keys()):
+                if s[right] in target_keys:
+                    target[s[right]] -= 1
+                    if len(list(filter(lambda x: x <= 0, list(target.values())))) == len(target):
+                        right += 1
+                        left_flag = True
                         break
                 right += 1
-            ans = s[left:right+1]
-            while left < len(s):
-                if s[left] in target.keys():
-                    ans = s[left:right+1]
-                    break
+            while left_flag and left < len(s):
+                if s[left] in target_keys:
+                    target[s[left]] += 1
+                    if target[s[left]] > 0:
+                        if len(result) > len(s[left:right]):
+                            result = s[left:right]
+                        left += 1
+                        break
                 left += 1
-                
-        return ans
+        return result if len(result) != (len(s) + 1) else ''
