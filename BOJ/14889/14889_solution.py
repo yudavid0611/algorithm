@@ -4,12 +4,16 @@ sys.stdin = open('BOJ/14889/14889_input.txt', 'r')
 
 
 def comb(arr):
+    global teams
     half = list(combinations(arr, N//2))                            # N의 절반만큼의 원소 수를 가지는 모든 조합 구하기
     for h in half:
         temp = arr[:]
         for i in h:
             temp.remove(i)                                          # 조합에 포함되지 않은 원소 집합
-        teams.append([list(h), temp])                               # 리스트 내 첫 번째 원소는 스타트팀, 두 번째 원소는 링크팀
+        teams.append((tuple(h), tuple(temp)))
+        teams = tuple(map(sorted, teams))                               # 리스트 내 첫 번째 원소는 스타트팀, 두 번째 원소는 링크팀
+        teams = tuple(map(tuple, teams))                               # 리스트 내 첫 번째 원소는 스타트팀, 두 번째 원소는 링크팀
+        teams = list(set(teams))
 
 
 def get_score(arr):                                                 # 능력치를 계산하는 함수
