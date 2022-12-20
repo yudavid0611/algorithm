@@ -3,6 +3,7 @@
 ## Strategy
 - [binary search](https://github.com/yudavid0611/algorithm/blob/master/strategy/binary_search.ipynb)
 - [disjoint set](https://github.com/yudavid0611/algorithm/blob/master/strategy/disjoint_sets/)
+- [divide and conquer](https://github.com/yudavid0611/algorithm/blob/master/strategy/divide_and_conquer.md)
 - [graph search](https://github.com/yudavid0611/algorithm/blob/master/strategy/graph_search/graph_search.ipynb)
 - [quick sort](https://github.com/yudavid0611/algorithm/blob/master/strategy/quick_sort.ipynb)
 - [sequential search](https://github.com/yudavid0611/algorithm/blob/master/strategy/sequential_search.ipynb)
@@ -50,6 +51,7 @@
 - [200](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/200.py)
 - [215](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/215.py)
 - [240](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/240.py)
+- [241](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/241.py)
 - [332](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/332.py)
 - [349](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/349.py)
 - [704](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/704.py)
