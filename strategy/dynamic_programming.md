@@ -15,4 +15,5 @@
 - LeetCode 509: [509. Fibonacci Number](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/509.py)
 - BOJ 1463: [1463. 1로 만들기](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1463/)
 - BOJ 1149: [1149. RGB거리](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1149/)
+- BOJ 9251: [9251. LCS](https://github.com/yudavid0611/algorithm/blob/master/BOJ/9251/)
 - BOJ 12865: [12865. 평범한 배낭](https://github.com/yudavid0611/algorithm/blob/master/BOJ/12865/)
