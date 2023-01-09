@@ -1,18 +1,24 @@
 # 1541: 잃어버린 괄호
-# 10+(-30-50)-(60+70)
 
-# 작은수 - 큰 수
+import sys
+from functools import reduce
+sys.stdin = open('1541_input.txt')
 
-# 작은수- 큰수() 
-# -가 한 개 -> 작은 수 - 큰 수
-# -가 두 개 -> 작은수- (큰수-작은수)
-# -가 세 개 -> 작은수-(큰수- (작은수-큰수))
 
-# 작은 수 만들기: 빼기
+s = input()
+expression = s.split('-')
+for i in range(len(expression)):
+    now_exp = expression[i]
+    now_exp_splited = now_exp.split('+')
+    # 왼쪽에 붙은 0 제거
+    now_exp_splited = list(map(lambda x: x.lstrip('0'), now_exp_splited))
+    # 합 구하기
+    now_new = reduce(lambda acc, cur: 
+    acc + int(cur) if cur else acc, now_exp_splited, 0)
 
-# 55-(50+40-30)
-
-# 마이너스가 나오면 그 이후 수들 중 덧셈 연산은 진행 -> 뺴기 진행
-# 마이너스가 없으면 그냥 
-
-# -10 -30 -40
+    if not i:
+        result = now_new
+    else:
+        result -= now_new
+    
+print(result)
