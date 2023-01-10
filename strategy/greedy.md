@@ -16,4 +16,6 @@
 ## Examples
 - BOJ 1541: [11399. ATM](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1541/)
 - BOJ 1931: [1931. 회의실 배정](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1931/)
+- BOJ 1946: [1946. 신입사원](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1946/)
 - BOJ 11399: [11399. ATM](https://github.com/yudavid0611/algorithm/blob/master/BOJ/11399/)
+- BOJ 16953: [16953. A -> B](https://github.com/yudavid0611/algorithm/blob/master/BOJ/16953/)
