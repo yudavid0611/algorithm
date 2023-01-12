@@ -1,57 +1,44 @@
 # 5525: IOIOI
 
-# 첫 번째 I가 나오기 전까지의 O는 모두 제거
-# I가 나오면 start, start 인덱스 기억해두기
-# I가 나오면 IO 패턴이 반복될 때까지 슬라이싱
-# IO 패턴이 끊기면 그 안에 O가 몇 개 있는지 판단
-# if O가 M개면, M-N+1개가 답
 
 import sys
 sys.stdin = open('5525_input.txt')
 
 N = int(input())
-M = int(input())
+m = int(input())
 s = input()
 
-s.lstrip('O')
 result = 0
-
-base = 0
-
 while True:
-    base = s.find('I')
-    if base == -1:
-        break
-    s = s[base:]
+    # 시작점이 될 I 인덱스
+    idx = s.find('I')
+    base = idx
 
-    start = 0
-    end = 1
-    is_end = False
-    while s[start:end+1] == 'IO':
-        if end == len(s):
-            is_end = True
+    while True:
+        if idx == m or idx == -1 or s[idx] != 'I':
             break
-        start += 2
-        end += 2
-    if is_end:
-        # count_O = s[:end+1].count('O')
-        count_I = (end+1) // 2
-        if s[start] == 'I':
-            count_I += 1
-    else:
-        # count_I = s[:start].count('O')
-        count_I = start // 2
-        if count_I and s[start - 1] == 'I':
-            count_I += 1
-
-    if count_I >= N:
-        result += count_I - N
-    print(s, count_I, start, end, result)
-
-    if end >= len(s):
+        idx += 1
+        if idx == m or idx == -1 or s[idx] != 'O':
+            break
+        idx += 1
+    
+    # 마지막 인덱스에서 멈춰있는 경우 break
+    if base == idx:
         break
-    if not start:
-        start += 1
-    s = s[start:]
-    # print(result, s)
+
+    # IO패턴이 유효한 구간에서 'O'의 개수 세기
+    count_O = s[base:idx].count('O')
+    if count_O >= N:
+        # 유효한 구간의 마지막 문자가 'I'인 경우
+        if s[idx-1] == 'I':
+            result += count_O - N + 1
+        # 유효한 구간의 마지막 문자가 'O'인 경우
+        else:
+            result += count_O - N
+    
+    # 사용한 문자열 구간은 제거
+    s = s[idx:]
+    # 문자열 길이 업데이트
+    m = len(s)
+
 print(result)
