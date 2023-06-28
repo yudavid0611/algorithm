@@ -22,6 +22,7 @@
 - [1181](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1181/)
 - [1244](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1244/)
 - [1463](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1463/)
+- [1535](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1535/)
 - [1541](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1541/)
 - [1546](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1546.py)
 - [1931](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1931)
@@ -80,3 +81,9 @@
 - [783](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/783.py)
 - [938](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/938.py)
 - [1038](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/1038.py)
+
+</br>
+
+## programmers
+- [k진수에서 소수 개수 구하기](https://github.com/yudavid0611/algorithm/blob/master/programmers/k%EC%A7%84%EC%88%98%EC%97%90%EC%84%9C%20%EC%86%8C%EC%88%98%20%EA%B0%9C%EC%88%98%20%EA%B5%AC%ED%95%98%EA%B8%B0.py)
+- [주차 요금 계산](https://github.com/yudavid0611/algorithm/blob/master/programmers/k%EC%A7%84%EC%88%98%EC%97%90%EC%84%9C%20%EC%86%8C%EC%88%98%20%EA%B0%9C%EC%88%98%20%EA%B5%AC%ED%95%98%EA%B8%B0.py)
