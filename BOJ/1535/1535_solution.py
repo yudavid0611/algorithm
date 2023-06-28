@@ -2,7 +2,7 @@ import sys
 sys.stdin = open('1535_input.txt')
 
 ## 접근법 ##
-# 1. input을 잃는 체력이 작은 순으로 정렬한다.
+# 1. input을 '[체력, 기쁨]' 형식으로 리스트에 저장한다.
 # 2. knapsack 함수를 정의한다.
 
 def knapsack(h, w):
@@ -30,8 +30,6 @@ joy = list(map(int, sys.stdin.readline().split()))
 data = []
 for i in range(N):
     data.append([health[i], joy[i]])
-
-data.sort()
 
 memo = [[0] * 100 for _ in range(N)]
 
