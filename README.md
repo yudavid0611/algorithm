@@ -1,16 +1,17 @@
 # Algorithm
 
-## Strategy
-- [binary search](https://github.com/yudavid0611/algorithm/blob/master/strategy/binary_search.ipynb)
-- [disjoint set](https://github.com/yudavid0611/algorithm/blob/master/strategy/disjoint_sets/)
-- [divide and conquer](https://github.com/yudavid0611/algorithm/blob/master/strategy/divide_and_conquer.md)
-- [dynamic programming](https://github.com/yudavid0611/algorithm/blob/master/strategy/dynamic_programming.md)
-- [graph search](https://github.com/yudavid0611/algorithm/blob/master/strategy/graph_search/graph_search.ipynb)
-- [quick sort](https://github.com/yudavid0611/algorithm/blob/master/strategy/quick_sort.ipynb)
-- [sequential search](https://github.com/yudavid0611/algorithm/blob/master/strategy/sequential_search.ipynb)
-- [selection](https://github.com/yudavid0611/algorithm/blob/master/strategy/selection.ipynb)
-- [sorting](https://github.com/yudavid0611/algorithm/blob/master/strategy/sorting.ipynb)
-- [subset and permutation](https://github.com/yudavid0611/algorithm/blob/master/strategy/subset_and_permutation.ipynb)
+## study
+- [binary search](https://github.com/yudavid0611/algorithm/blob/master/study/binary_search.ipynb)
+- [disjoint set](https://github.com/yudavid0611/algorithm/blob/master/study/disjoint_sets/)
+- [divide and conquer](https://github.com/yudavid0611/algorithm/blob/master/study/divide_and_conquer.md)
+- [dynamic programming](https://github.com/yudavid0611/algorithm/blob/master/study/dynamic_programming.md)
+- [graph search](https://github.com/yudavid0611/algorithm/blob/master/study/graph_search/graph_search.ipynb)
+- [quick sort](https://github.com/yudavid0611/algorithm/blob/master/study/quick_sort.ipynb)
+- [sequential search](https://github.com/yudavid0611/algorithm/blob/master/study/sequential_search.ipynb)
+- [selection](https://github.com/yudavid0611/algorithm/blob/master/study/selection.ipynb)
+- [sorting](https://github.com/yudavid0611/algorithm/blob/master/study/sorting.ipynb)
+- [subset and permutation](https://github.com/yudavid0611/algorithm/blob/master/study/subset_and_permutation.ipynb)
+- [trie](https://github.com/yudavid0611/algorithm/blob/master/study/trie/)
 
 
 </br>
@@ -72,6 +73,7 @@
 - [148](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/148.py)
 - [167](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/167.py)
 - [200](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/200.py)
+- [208](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/208.py)
 - [215](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/215.py)
 - [240](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/240.py)
 - [241](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/241.py)
