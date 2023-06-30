@@ -89,7 +89,10 @@
 
 ## programmers
 - [k진수에서 소수 개수 구하기](https://github.com/yudavid0611/algorithm/blob/master/programmers/k%EC%A7%84%EC%88%98%EC%97%90%EC%84%9C%20%EC%86%8C%EC%88%98%20%EA%B0%9C%EC%88%98%20%EA%B5%AC%ED%95%98%EA%B8%B0.py)
+- [두 큐 합 같게 만들기](https://github.com/yudavid0611/algorithm/blob/master/programmers/%EB%91%90%20%ED%81%90%20%ED%95%A9%20%EA%B0%99%EA%B2%8C%20%EB%A7%8C%EB%93%A4%EA%B8%B0.py)
 - [주차 요금 계산](https://github.com/yudavid0611/algorithm/blob/master/programmers/%EC%A3%BC%EC%B0%A8%20%EC%9A%94%EA%B8%88%20%EA%B3%84%EC%82%B0.py)
+
+
 
 </br>
 
