@@ -41,7 +41,6 @@ N, B = map(int, sys.stdin.readline().split())
 
 A = [list(map(int, sys.stdin.readline().split())) for _ in range(N)]
 
-
 # 항등함수 만들기
 E = [[0] * len(A[0]) for _ in range(len(A))]
 for i in range(len(E)):

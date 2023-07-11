@@ -63,6 +63,7 @@
 </br>
 
 ## LeetCode
+- [1](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/1.py)
 - [17](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/17.py)
 - [32](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/32.py)
 - [33](https://github.com/yudavid0611/algorithm/blob/master/LeetCode/33.py)
