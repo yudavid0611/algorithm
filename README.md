@@ -54,6 +54,7 @@
 - [10830](https://github.com/yudavid0611/algorithm/blob/master/BOJ/10830/)
 - [11399](https://github.com/yudavid0611/algorithm/blob/master/BOJ/11399/)
 - [12865](https://github.com/yudavid0611/algorithm/blob/master/BOJ/12865/)
+- [14502](https://github.com/yudavid0611/algorithm/blob/master/BOJ/14502/)
 - [14888](https://github.com/yudavid0611/algorithm/blob/master/BOJ/14888)
 - [14889](https://github.com/yudavid0611/algorithm/blob/master/BOJ/14889/)
 - [15686](https://github.com/yudavid0611/algorithm/blob/master/BOJ/15686/)
