@@ -1,53 +1,32 @@
 import sys
-sys.stdin = open('BOJ/1967/1967_input.txt', 'r')
+from collections import defaultdict
+sys.stdin = open('1967_input.txt')
 sys.setrecursionlimit(100000)
-# input = sys.stdin.readline
 
-class TreeNode:
-    def __init__(self, val=0, weight=0):
-        self.val = val
-        self.ch = []
-        self.weight = weight
+# 중위 순회
+def inorder(n, w, tree, weight_agg):
+    # leaf일 경우
+    if not tree[n]:
+        return w
+    else:
+        weights = []
+        # 자식 노드 순회
+        for child in tree[n]:
+            weights.append(inorder(child[0], child[1], tree, weight_agg))
+        
+        weights.sort(reverse=True)
+        # 상위 2개 노드 합 기록
+        weight_agg[n] = sum(weights[:2])
+        return weights[0] + w
 
-def postorder(n):
-    global max_lengh
-    if n:
-        w_sum = []
-        while n.ch:
-            c = n.ch.pop(0)
-            w_sum.append(postorder(c))
-        w_sum.sort(reverse=True)
-        top_2 = sum(w_sum[:2])
-        if top_2 > max_lengh:
-            max_lengh = top_2
-        try:
-            return w_sum[0] + n.weight
-        except:
-            return n.weight
+n = int(input())
 
+tree = defaultdict(list)
+for _ in range(n - 1):
+    p, c, e = map(int, sys.stdin.readline().split())
+    tree[p].append([c, e])
 
-N = int(input())
-if N == 1:
-    print(0)
-else:
-    q = []
-    root, ch, w = map(int, input().split())
-    head = root = TreeNode(root)
-    ch = TreeNode(ch, w)
-    root.ch.append(ch)
-    q.append(ch)
+weight_agg = [0] * (n + 1)
 
-    for _ in range(N-2):
-        n, ch, w = map(int, input().split())
-        ch = TreeNode(ch, w)
-        if n == root.val:
-            root.ch.append(ch)
-            q.append(ch)
-        else:
-            while q and root.val != n:
-                root = q.pop(0)
-            root.ch.append(ch)
-            q.append(ch)
-    max_lengh = 0
-    postorder(head)
-    print(max_lengh)
+inorder(1, 0, tree, weight_agg)
+print(max(weight_agg))
