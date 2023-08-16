@@ -10,7 +10,7 @@ N = int(input())
 # 구역별 인구수
 populations = [0] + list(map(int, input().split()))
 
-# 연결 리스트
+# 인접 리스트
 sections = defaultdict(list)
 
 for section in range(1, N + 1):
