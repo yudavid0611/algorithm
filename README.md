@@ -44,6 +44,7 @@
 - [1941](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1941/)
 - [1946](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1946/)
 - [1947](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1947/)
+- [1949](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1949/)
 - [1967](https://github.com/yudavid0611/algorithm/blob/master/BOJ/1967)
 - [2042](https://github.com/yudavid0611/algorithm/blob/master/BOJ/2042)
 - [2178](https://github.com/yudavid0611/algorithm/blob/master/BOJ/2178)
