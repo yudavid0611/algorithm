@@ -51,7 +51,7 @@ def set_parent():
 
 
 # 최소 공통 조상 찾기
-def lca(a ,b):
+def lca(a, b):
     # b가 더 깊도록 만들기
     if depth[a] > depth[b]:
         a, b = b, a
