@@ -90,6 +90,7 @@
 - [15686](https://github.com/yudavid0611/algorithm/blob/master/BOJ/15686/)
 - [16928](https://github.com/yudavid0611/algorithm/blob/master/BOJ/16928)
 - [16953](https://github.com/yudavid0611/algorithm/blob/master/BOJ/16953/)
+- [17299](https://github.com/yudavid0611/algorithm/blob/master/BOJ/17299/)
 - [17471](https://github.com/yudavid0611/algorithm/blob/master/BOJ/17471/)
 
 </br>
