@@ -102,6 +102,7 @@
 - [17471](https://github.com/yudavid0611/algorithm/blob/master/BOJ/17471/)
 - [17612](https://github.com/yudavid0611/algorithm/blob/master/BOJ/17612/)
 - [20303](https://github.com/yudavid0611/algorithm/blob/master/BOJ/20303/)
+- [22866](https://github.com/yudavid0611/algorithm/blob/master/BOJ/22866/)
 
 </br>
 
